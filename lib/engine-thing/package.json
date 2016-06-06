@@ -1,0 +1,12 @@
+{
+  "name": "engine-thing",
+  "keywords": [
+    "ember-addon"
+  ],
+  "dependencies": {
+    "ember-browserify": "*",
+    "ember-cli-htmlbars": "*",
+    "ember-engines": "*",
+    "ember-wormhole": "*"
+  }
+}
