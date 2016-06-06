@@ -1,7 +1,7 @@
 {
-  "name": "engine-test-2",
+  "name": "engine-test",
   "version": "0.0.0",
-  "description": "Small description for engine-test-2 goes here",
+  "description": "Small description for engine-test goes here",
   "private": true,
   "directories": {
     "doc": "doc",
@@ -34,10 +34,10 @@
     "ember-cli-sri": "^2.1.0",
     "ember-cli-uglify": "^1.2.0",
     "ember-data": "^2.6.0-beta.1",
+    "ember-engines": "0.2.4",
     "ember-export-application-global": "^1.0.5",
     "ember-load-initializers": "^0.5.1",
     "ember-resolver": "^2.0.3",
-    "ember-welcome-page": "^1.0.1",
     "loader.js": "^4.0.1"
   }
 }
