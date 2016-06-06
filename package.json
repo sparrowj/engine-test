@@ -42,7 +42,7 @@
   },
   "ember-addon": {
     "paths": [
-      "lib/engine-thing"
+      "engine-thing"
     ]
   }
 }
