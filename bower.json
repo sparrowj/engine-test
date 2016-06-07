@@ -1,14 +1,9 @@
 {
-  "name": "engine-test",
+  "name": "test-engine",
   "dependencies": {
-    "ember": "kratiahuja/ember-preparse-patch#5d2926e",
+    "ember": "~2.6.0-beta.2",
     "ember-cli-shims": "0.1.1",
     "ember-cli-test-loader": "0.2.2",
-    "ember-qunit-notifications": "0.1.0",
-    "jquery": "krisselden/jquery-preparse-patch#48bda07"
-  },
-  "resolutions": {
-    "ember": "5d2926e",
-    "jquery": "48bda07"
+    "ember-qunit-notifications": "0.1.0"
   }
 }
