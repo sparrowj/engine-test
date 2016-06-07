@@ -1,0 +1,10 @@
+<h3>Parent</h3>
+
+{{#each openChildren as |child|}}
+  {{child
+    child=child
+    closeSelectedChild="closeChild"
+  }}
+{{/each}}
+
+<button type="button" name="button" {{action "openChild"}}>Add Ringo</button>
