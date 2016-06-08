@@ -1,5 +1,9 @@
+import layout from 'that-engine/templates/components/parent';
 import Ember from 'ember';
+
 export default Ember.Component.extend({
+  layout,
+
   init() {
     this.openChildren = [{name: 'John'}, {name: 'Paul'}, {name: 'George'}]
   },
