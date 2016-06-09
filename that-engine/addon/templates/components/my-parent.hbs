@@ -1,8 +1,9 @@
 <h3>Parent</h3>
 
-{{#each openChildren as |child|}}
-  {{child
-    child=child
+{{#each openChildren as |beatle|}}
+  {{log child}}
+  {{my-child
+    beatle=beatle
     closeSelectedChild="closeChild"
   }}
 {{/each}}

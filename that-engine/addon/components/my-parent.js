@@ -1,11 +1,12 @@
-import layout from 'that-engine/templates/components/parent';
+import layout from 'that-engine/templates/components/my-parent';
 import Ember from 'ember';
 
 export default Ember.Component.extend({
   layout,
 
   init() {
-    this.openChildren = [{name: 'John'}, {name: 'Paul'}, {name: 'George'}]
+    this._super(...arguments);
+    this.openChildren = [{name: 'John'}, {name: 'Paul'}, {name: 'George'}];
   },
 
   willUpdate() {
@@ -26,7 +27,7 @@ export default Ember.Component.extend({
 
     closeChild(child) {
       let openChildren = this.get('openChildren');
-      openChildren.removeObject(conversation);
+      openChildren.removeObject(child);
     }
   }
 

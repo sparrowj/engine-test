@@ -1,4 +1,4 @@
-import layout from 'that-engine/templates/components/child';
+import layout from 'that-engine/templates/components/my-child';
 import Ember from 'ember';
 
 
