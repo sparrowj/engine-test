@@ -1,5 +1,2 @@
-{{debugger}}{{log beatle}}
-<header>
-  <h4>{{beatle.name}}</h4>
-  <button {{action "close"}}>X</button>
-</header>
+<button class="action-button" {{action "close" child}}>X</button>
+<h4>{{child.name}}</h4>

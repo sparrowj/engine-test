@@ -1,11 +1,8 @@
-<h3>Parent</h3>
-
-{{#each openChildren as |beatle|}}
-  {{log child}}
+{{#each openChildren as |child|}}
   {{my-child
-    beatle=beatle
-    closeSelectedChild="closeChild"
+    child=child
+    closeChild=(action "closeChild")
   }}
 {{/each}}
 
-<button type="button" name="button" {{action "openChild"}}>Add Ringo</button>
+<button type="button" name="button" class="add-child" {{action "openChild"}}>Add Ringo</button>
